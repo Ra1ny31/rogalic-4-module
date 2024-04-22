@@ -4,84 +4,39 @@ using UnityEngine;
 
 public class EnemyAttack : MonoBehaviour
 {
-    public float Speed;
-    public Transform Point;
-    public int PositionPoint;
-    bool _movingRight;
+    public Transform player;  
+    public float moveSpeed = 5f;  
 
-    Transform player;
-    public float StoppingDistance;
-
-    bool _chill = false;
-    bool _angry = false;
-    bool _goback = false;
+    private Rigidbody2D rb;
 
     private void Start()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
     {
-        if(Vector2.Distance(transform.position, Point.position) < PositionPoint)
+        if (player != null)
         {
-            _chill = true;
-        }
-
-        if(Vector2.Distance(transform.position, player.position) < StoppingDistance)
-        {
-            _angry = true;
-        }
-
-        if (Vector2.Distance(transform.position, player.position) > StoppingDistance)
-        {
-            _goback = true;
-        }
-
-        if(_chill == true)
-        {
-            Chill();
-        }
-
-        if(_angry == true)
-        {
-            Angry();
-        }
-
-        if(_goback == true)
-        {
-            GoBack();
+            Vector2 direction = (player.position - transform.position).normalized;
+            rb.velocity = direction * moveSpeed;
         }
     }
 
-    void Chill()
+    private void OnTriggerStay2D(Collider2D other)
     {
-        if(transform.position.x > Point.position.x + PositionPoint)
+        if (other.gameObject.CompareTag("Player"))
         {
-            _movingRight = false;
-        }
-        else if(transform.position.x < Point.position.x - PositionPoint)
-        {
-            _movingRight = true;
-        }
-
-        if(_movingRight == true)
-        {
-            transform.position = new Vector2(transform.position.x + Speed * Time.deltaTime, transform.position.y);
-        }
-        else
-        {
-            transform.position = new Vector2(transform.position.x - Speed * Time.deltaTime, transform.position.y);
+            player = other.transform;
         }
     }
 
-    void Angry()
+    private void OnTriggerExit2D(Collider2D other)
     {
-        transform.position = Vector2.MoveTowards(transform.position, player.position, Speed * Time.deltaTime);
+        if (other.gameObject.CompareTag("Player"))
+        {
+            player = null;
+        }
     }
-
-    void GoBack()
-    {
-        transform.position = Vector2.MoveTowards(transform.position, Point.position, Speed * Time.deltaTime);
-    }
+    
 }
