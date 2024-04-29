@@ -52,8 +52,8 @@ public class HeroKnight : MonoBehaviour {
             m_rollCurrentTime += Time.deltaTime;
 
         // Disable rolling if timer extends duration
-        if(m_rollCurrentTime > m_rollDuration)
-            m_rolling = false;
+        //if(m_rollCurrentTime > m_rollDuration)
+            //m_rolling = false;
 
         //Check if character just landed on the ground
         if (!m_grounded && m_groundSensor.State())
@@ -179,19 +179,19 @@ public class HeroKnight : MonoBehaviour {
     // Called in slide animation.
     void AE_SlideDust()
     {
-        Vector3 spawnPosition;
+        //Vector3 spawnPosition;
 
-        if (m_facingDirection == 1)
-            spawnPosition = m_wallSensorR2.transform.position;
-        else
-            spawnPosition = m_wallSensorL2.transform.position;
+        //if (m_facingDirection == 1)
+            //spawnPosition = m_wallSensorR2.transform.position;
+        //else
+            //spawnPosition = m_wallSensorL2.transform.position;
 
         if (m_slideDust != null)
         {
             // Set correct arrow spawn position
-            GameObject dust = Instantiate(m_slideDust, spawnPosition, gameObject.transform.localRotation) as GameObject;
+            //GameObject dust = Instantiate(m_slideDust, spawnPosition, gameObject.transform.localRotation) as GameObject;
             // Turn arrow in correct direction
-            dust.transform.localScale = new Vector3(m_facingDirection, 1, 1);
+            //dust.transform.localScale = new Vector3(m_facingDirection, 1, 1);
         }
     }
 }
