@@ -8,7 +8,7 @@ public class Pause : MonoBehaviour
 {
     public GameObject PauseScreen;
     public GameObject ChoiceScreen;
-    public TextMeshProUGUI HP;
+    //public TextMeshProUGUI HP;
 
     private void Update()
     {
@@ -19,7 +19,7 @@ public class Pause : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             PauseScreen.SetActive(true);
-            HP.enabled = !HP.enabled;
+            //HP.enabled = !HP.enabled;
         }
 
     }

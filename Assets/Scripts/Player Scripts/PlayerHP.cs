@@ -7,15 +7,20 @@ public class PlayerHP : MonoBehaviour
 {
     public float HPMax = 100;
     public float HP = 100;
-    public TextMeshProUGUI HPText;
+    public RectTransform HealthBar;
 
+    private void Awake()
+    {
+        PlayerPrefs.SetFloat("HP", HP);
+    }
     private void Start()
     {
+        HP = HPMax;
         Finish();
     }
     private void Update()
     {
-        HPText.text = HP.ToString();
+        HealthBar.anchorMax = new Vector2(HP / HPMax, 1);
         if (Input.GetKeyDown(KeyCode.K))
         {
             HP -= 10;
@@ -24,6 +29,7 @@ public class PlayerHP : MonoBehaviour
         if(HP <= 0)
         {
             Destroy(gameObject);
+            
         }
        
     }
