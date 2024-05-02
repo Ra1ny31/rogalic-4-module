@@ -20,6 +20,6 @@ public class DeathScreen : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("location 1");
     }
 }

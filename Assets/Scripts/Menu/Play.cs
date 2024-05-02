@@ -11,7 +11,7 @@ public class Play : MonoBehaviour
 
     public void ClickPlay()
     {
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("location 1");
     }
 
    public void Exit()
