@@ -14,9 +14,9 @@ public class enemattack : MonoBehaviour
         MainHP.GetComponent<PlayerHP>();
     }
 
-    private void Update()
+    private void Update()   
     {
-        CoolDown += Time.deltaTime;
+            CoolDown += Time.deltaTime;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
