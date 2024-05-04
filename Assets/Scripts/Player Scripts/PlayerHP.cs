@@ -8,10 +8,14 @@ public class PlayerHP : MonoBehaviour
     public float HPMax = 100;
     public float HP = 100;
     public RectTransform HealthBar;
+    public GameObject DeathScreen;
+    public GameObject Health;
+    public GameObject TextPotion, TextCol;
 
     private void Awake()
     {
         PlayerPrefs.SetFloat("HP", HP);
+        DeathScreen.SetActive(false);
     }
     private void Start()
     {
@@ -21,15 +25,14 @@ public class PlayerHP : MonoBehaviour
     private void Update()
     {
         HealthBar.anchorMax = new Vector2(HP / HPMax, 1);
-        if (Input.GetKeyDown(KeyCode.K))
-        {
-            HP -= 10;
-        }
 
         if(HP <= 0)
         {
+            DeathScreen.SetActive(true);
             Destroy(gameObject);
-            
+            Health.SetActive(false);
+            TextPotion.SetActive(false);
+            TextCol.SetActive(false);
         }
        
     }

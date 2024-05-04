@@ -6,13 +6,8 @@ public class enemattack : MonoBehaviour
 {
     public GameObject Trigger;
     public float Damage = 10f;
-    public PlayerHP MainHP;
     public float CoolDown = 0;
 
-    private void Start()
-    {
-        MainHP.GetComponent<PlayerHP>();
-    }
 
     private void Update()   
     {
@@ -24,7 +19,7 @@ public class enemattack : MonoBehaviour
         if (other.gameObject.tag == "Player" && CoolDown >= 0.5) 
         {
             CoolDown = 0;
-            MainHP.HP -= Damage;
+            other.gameObject.GetComponent<PlayerHP>().HP -= Damage;
         }
     }
 
@@ -33,7 +28,7 @@ public class enemattack : MonoBehaviour
         if (other.gameObject.tag == "Player" && CoolDown >= 0.5)
         {
             CoolDown = 0;
-            MainHP.HP -= Damage;
+            other.gameObject.GetComponent<PlayerHP>().HP -= Damage;
         }
     }
 
