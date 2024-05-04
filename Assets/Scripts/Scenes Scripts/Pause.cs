@@ -8,6 +8,9 @@ public class Pause : MonoBehaviour
 {
     public GameObject PauseScreen;
     public GameObject ChoiceScreen;
+    public GameObject HP;
+    public GameObject Player;
+    public GameObject PotionText, PotionColText;
     //public TextMeshProUGUI HP;
 
     private void Update()
@@ -19,6 +22,10 @@ public class Pause : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             PauseScreen.SetActive(true);
+            HP.SetActive(false);
+            Player.SetActive(false);
+            PotionText.SetActive(false);
+            PotionColText.SetActive(false);
             //HP.enabled = !HP.enabled;
         }
 
@@ -27,6 +34,10 @@ public class Pause : MonoBehaviour
     public void ContinueButton()
     {
         PauseScreen.SetActive(false);
+        HP.SetActive(true);
+        Player.SetActive(true);
+        PotionText.SetActive(true);
+        PotionColText.SetActive(true);
     }
 
     public void MainMenuButton()
@@ -37,7 +48,7 @@ public class Pause : MonoBehaviour
 
     public void YesButton()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene("Menu");
     }
 
     public void NoButton()
