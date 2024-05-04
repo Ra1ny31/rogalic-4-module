@@ -10,8 +10,8 @@ public class PlayerHP : MonoBehaviour
     public RectTransform HealthBar;
     public GameObject DeathScreen;
     public GameObject Health;
-    public GameObject TextPotion, TextCol;
-
+    public GameObject TextCol;
+    public GameObject PotionImage;
     private void Awake()
     {
         PlayerPrefs.SetFloat("HP", HP);
@@ -31,7 +31,7 @@ public class PlayerHP : MonoBehaviour
             DeathScreen.SetActive(true);
             Destroy(gameObject);
             Health.SetActive(false);
-            TextPotion.SetActive(false);
+            PotionImage.SetActive(false);
             TextCol.SetActive(false);
         }
        

@@ -10,7 +10,8 @@ public class Pause : MonoBehaviour
     public GameObject ChoiceScreen;
     public GameObject HP;
     public GameObject Player;
-    public GameObject PotionText, PotionColText;
+    public GameObject PotionColText;
+    public GameObject PotionImage;
     //public TextMeshProUGUI HP;
 
     private void Update()
@@ -24,7 +25,7 @@ public class Pause : MonoBehaviour
             PauseScreen.SetActive(true);
             HP.SetActive(false);
             Player.SetActive(false);
-            PotionText.SetActive(false);
+            PotionImage.SetActive(false);
             PotionColText.SetActive(false);
             //HP.enabled = !HP.enabled;
         }
@@ -36,7 +37,7 @@ public class Pause : MonoBehaviour
         PauseScreen.SetActive(false);
         HP.SetActive(true);
         Player.SetActive(true);
-        PotionText.SetActive(true);
+        PotionImage.SetActive(true);
         PotionColText.SetActive(true);
     }
 
