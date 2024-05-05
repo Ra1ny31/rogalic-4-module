@@ -27,6 +27,7 @@ public class Pause : MonoBehaviour
             Player.SetActive(false);
             PotionImage.SetActive(false);
             PotionColText.SetActive(false);
+            Time.timeScale = 0;
             //HP.enabled = !HP.enabled;
         }
 
@@ -39,6 +40,7 @@ public class Pause : MonoBehaviour
         Player.SetActive(true);
         PotionImage.SetActive(true);
         PotionColText.SetActive(true);
+        Time.timeScale = 1;
     }
 
     public void MainMenuButton()

@@ -14,23 +14,13 @@ public class enemattack : MonoBehaviour
             CoolDown += Time.deltaTime;
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.tag == "Player" && CoolDown >= 0.5) 
+        if(other.gameObject.GetComponent<PlayerHP>() != null)
         {
-            CoolDown = 0;
             other.gameObject.GetComponent<PlayerHP>().HP -= Damage;
         }
     }
 
-    private void OnTriggerStay2D(Collider2D other)
-    {
-        if (other.gameObject.tag == "Player" && CoolDown >= 0.5)
-        {
-            CoolDown = 0;
-            other.gameObject.GetComponent<PlayerHP>().HP -= Damage;
-        }
-    }
 
-    
 }

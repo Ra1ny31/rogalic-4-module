@@ -4,12 +4,16 @@ using UnityEngine;
 
 public class enemyattack1 : MonoBehaviour
 {
-    public EnemyBehavior Move;
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(other.gameObject.tag == "Player")
+        if (collision.CompareTag("Player"))
         {
-            Move.MoveEnemy();
+            collision.GetComponent<EnemyBehavior>().MoveEnemy();
         }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        collision.GetComponent<EnemyBehavior>().StopSpeed();
     }
 }

@@ -92,7 +92,7 @@ public class HeroKnight : MonoBehaviour {
         //Set AirSpeed in animator
         m_animator.SetFloat("AirSpeedY", m_body2d.velocity.y);
 
-        // -- Handle Animations --
+        //-- Handle Animations --
         //Wall Slide
         m_isWallSliding = (m_wallSensorR1.State() && m_wallSensorR2.State()) || (m_wallSensorL1.State() && m_wallSensorL2.State());
         m_animator.SetBool("WallSlide", m_isWallSliding);
@@ -105,7 +105,7 @@ public class HeroKnight : MonoBehaviour {
         }
             
         //Hurt
-        else if (Input.GetKeyDown("q") && !m_rolling)
+       else if (Input.GetKeyDown("q") && !m_rolling)
             m_animator.SetTrigger("Hurt");
 
         //Attack
@@ -179,19 +179,19 @@ public class HeroKnight : MonoBehaviour {
     // Called in slide animation.
     void AE_SlideDust()
     {
-        //Vector3 spawnPosition;
+        Vector3 spawnPosition;
 
-        //if (m_facingDirection == 1)
-            //spawnPosition = m_wallSensorR2.transform.position;
+       //if (m_facingDirection == 1)
+            spawnPosition = m_wallSensorR2.transform.position;
         //else
             //spawnPosition = m_wallSensorL2.transform.position;
 
-        if (m_slideDust != null)
-        {
+        //if (m_slideDust != null)
+        //{
             // Set correct arrow spawn position
             //GameObject dust = Instantiate(m_slideDust, spawnPosition, gameObject.transform.localRotation) as GameObject;
             // Turn arrow in correct direction
             //dust.transform.localScale = new Vector3(m_facingDirection, 1, 1);
-        }
+        //}
     }
 }

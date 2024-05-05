@@ -12,6 +12,7 @@ public class PlayerHP : MonoBehaviour
     public GameObject Health;
     public GameObject TextCol;
     public GameObject PotionImage;
+    public GameObject Player;
     private void Awake()
     {
         PlayerPrefs.SetFloat("HP", HP);
@@ -25,20 +26,30 @@ public class PlayerHP : MonoBehaviour
     private void Update()
     {
         HealthBar.anchorMax = new Vector2(HP / HPMax, 1);
-
+       
         if(HP <= 0)
         {
-            DeathScreen.SetActive(true);
             Destroy(gameObject);
+            DeathScreen.SetActive(true);
             Health.SetActive(false);
             PotionImage.SetActive(false);
             TextCol.SetActive(false);
+            Player.SetActive(false);
         }
-       
     }
 
     private void Finish()
     {
         PlayerPrefs.GetFloat("HP");
+    }
+
+    public void TakeDamage(int Damage)
+    {
+        HP -= Damage;
+
+        if (HP <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 }

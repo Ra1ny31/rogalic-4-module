@@ -12,7 +12,7 @@ public class ChestScripts : MonoBehaviour
     }
     private void Update()
     {
-        UseChest();
+        //UseChest();
         
     }
 
@@ -28,8 +28,9 @@ public class ChestScripts : MonoBehaviour
     private void OnTriggerStay2D(Collider2D other)
     {
         
-        if(other.gameObject.tag == "Potion")
+        if(other.gameObject.tag == "Player")
         {
+            
             UseChest();
         }
     }

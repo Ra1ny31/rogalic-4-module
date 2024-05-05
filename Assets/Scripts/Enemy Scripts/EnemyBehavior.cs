@@ -17,4 +17,9 @@ public class EnemyBehavior : MonoBehaviour
     {
         transform.position = Vector2.MoveTowards(transform.position, target.position, _speed * Time.deltaTime);
     }
+
+    public void StopSpeed()
+    {
+        _speed = 0;
+    }
 }

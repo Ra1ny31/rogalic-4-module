@@ -22,4 +22,9 @@ public class DeathScreen : MonoBehaviour
     {
         SceneManager.LoadScene("location 1");
     }
+
+    public void BackMenu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
