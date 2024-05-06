@@ -1,0 +1,262 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7732716504228771159
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1039044156949152944, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_Name
+      value: HeroKnight
+      objectReference: {fileID: 0}
+    - target: {fileID: 1039044156949152944, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2606252938361624358, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_jumpForce
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2716400337293426053, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 6200000, guid: a41f8255cbeae474e94a97e59c26406a, type: 2}
+    - target: {fileID: 3272969213570795751, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3272969213570795751, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -11.19
+      objectReference: {fileID: 0}
+    - target: {fileID: 3272969213570795751, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3272969213570795751, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3272969213570795751, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3272969213570795751, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3272969213570795751, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3272969213570795751, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3272969213570795751, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3272969213570795751, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3272969213570795751, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460748933519440498, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460748934344240391, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: HPText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460748934344240391, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: Health
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460748934344240391, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: Player
+      value: 
+      objectReference: {fileID: 7294509332521906663}
+    - target: {fileID: 6460748934344240391, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: TextCol
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460748934344240391, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: HealthBar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460748934344240391, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: TextPotion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460748934344240391, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: DeathScreen
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460748934344240391, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: PotionImage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6460748934344240638, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: Range
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8166834455191961359, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+--- !u!1 &7294509332521906663 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1039044156949152944, guid: 039a2a0bf08f4ca4d926ce3bd77bb84b, type: 3}
+  m_PrefabInstance: {fileID: 7732716504228771159}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &8413529790025190769
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7294509332521906663}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 9a7865a1e51834f4491df4e800bdba22, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1.0656176
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &8413529790025190766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7294509332521906663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9bd28c28b3b3c144690a9be8638f2c56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PauseScreen: {fileID: 0}
+  ChoiceScreen: {fileID: 0}
+  HP: {fileID: 0}
+  Player: {fileID: 7294509332521906663}
+  PotionColText: {fileID: 0}
+  PotionImage: {fileID: 0}
+--- !u!114 &8413529790025190767
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7294509332521906663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef4b7390ec6f9594ab6ca939c242dcc1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MaxPotion: 3
+  Potion: 0
+  TextPotion: {fileID: 0}
+--- !u!114 &8413529790025190768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7294509332521906663}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fec0114116c867c47ae8ce28af0503a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MusicBackground: {fileID: 8413529790025190769}

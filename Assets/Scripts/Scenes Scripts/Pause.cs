@@ -12,6 +12,8 @@ public class Pause : MonoBehaviour
     public GameObject Player;
     public GameObject PotionColText;
     public GameObject PotionImage;
+    public GameObject ImageCoin;
+    public GameObject CoinText;
     //public TextMeshProUGUI HP;
 
     private void Update()
@@ -27,6 +29,8 @@ public class Pause : MonoBehaviour
             Player.SetActive(false);
             PotionImage.SetActive(false);
             PotionColText.SetActive(false);
+            ImageCoin.SetActive(false);
+            CoinText.SetActive(false);
             Time.timeScale = 0;
             //HP.enabled = !HP.enabled;
         }
@@ -40,6 +44,8 @@ public class Pause : MonoBehaviour
         Player.SetActive(true);
         PotionImage.SetActive(true);
         PotionColText.SetActive(true);
+        ImageCoin.SetActive(true);
+        CoinText.SetActive(true);
         Time.timeScale = 1;
     }
 

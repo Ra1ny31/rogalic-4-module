@@ -1,0 +1,156 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7684001690729040367
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3672984958450358352, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: Health
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672984958450358352, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: TextCol
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672984958450358352, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: CoinText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672984958450358352, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: HealthBar
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672984958450358352, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: ImageCoin
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672984958450358352, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: DeathScreen
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672984958450358352, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: PotionImage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5060863561517399472, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5060863561517399472, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 223.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 5060863561517399472, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.18
+      objectReference: {fileID: 0}
+    - target: {fileID: 5060863561517399472, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5060863561517399472, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5060863561517399472, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5060863561517399472, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5060863561517399472, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5060863561517399472, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5060863561517399472, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5060863561517399472, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7294509332521906663, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: m_Name
+      value: HeroKnight
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413529790025190766, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: HP
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413529790025190766, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: CoinText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413529790025190766, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: ImageCoin
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413529790025190766, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: PauseScreen
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413529790025190766, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: PotionImage
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413529790025190766, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: ChoiceScreen
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413529790025190766, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: PotionColText
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413529790025190767, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: TextPotion
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8413529790025190769, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+--- !u!1 &1123722068426930184 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7294509332521906663, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
+  m_PrefabInstance: {fileID: 7684001690729040367}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &8413529790025190776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123722068426930184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21dbeb469a311624d95e8e4b2279121c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UpgradeScreen: {fileID: 0}
+  Player: {fileID: 1123722068426930184}
+--- !u!114 &8413529790025190777
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123722068426930184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f632a10de9d6a0f47839f864e4560fd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Coin: 0
+  CoinText: {fileID: 0}

@@ -14,12 +14,19 @@ public class PotionScript : MonoBehaviour
     private void Start()
     {
         HpMain = GetComponent<PlayerHP>();
+        Potion = PlayerPrefs.GetInt("Potion", Potion);
+        if(HpMain.HP <= 0)
+        {
+            Potion = 0;
+        }
     }
 
     private void Update()
     {
+        PlayerPrefs.SetInt("Potion", Potion);
         TextPotion.text = Potion.ToString();
         UsePotion();
+        LoadPotion();
     }
 
     private void UsePotion()
@@ -37,5 +44,16 @@ public class PotionScript : MonoBehaviour
         {
             Potion++;
         }
+    }
+
+    public void LoadPotion()
+    {
+        PlayerPrefs.GetInt("Potion", Potion);
+    }
+
+    public void SetPotion()
+    {
+        Potion = 0;
+        PlayerPrefs.SetInt("Potion", Potion);
     }
 }

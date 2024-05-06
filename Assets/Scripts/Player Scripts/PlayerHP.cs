@@ -13,21 +13,29 @@ public class PlayerHP : MonoBehaviour
     public GameObject TextCol;
     public GameObject PotionImage;
     public GameObject Player;
+    public GameObject ImageCoin;
+    public GameObject CoinText;
     private void Awake()
     {
-        PlayerPrefs.SetFloat("HP", HP);
+        
         DeathScreen.SetActive(false);
     }
     private void Start()
     {
-        HP = HPMax;
-        Finish();
+        HP = PlayerPrefs.GetFloat("HP", HP);
+
+        if(HP <= 0)
+        {
+            HP += 100;
+            GetComponent<PotionScript>().SetPotion();
+            GetComponent<CoinScript>().SetCoin();
+        }
     }
     private void Update()
     {
         HealthBar.anchorMax = new Vector2(HP / HPMax, 1);
-       
-        if(HP <= 0)
+        PlayerPrefs.SetFloat("HP", HP);
+        if (HP <= 0)
         {
             Destroy(gameObject);
             DeathScreen.SetActive(true);
@@ -35,21 +43,27 @@ public class PlayerHP : MonoBehaviour
             PotionImage.SetActive(false);
             TextCol.SetActive(false);
             Player.SetActive(false);
+            ImageCoin.SetActive(false);
+            CoinText.SetActive(false);
         }
+        LoadProgress();
     }
 
-    private void Finish()
-    {
-        PlayerPrefs.GetFloat("HP");
-    }
+    
 
     public void TakeDamage(int Damage)
     {
         HP -= Damage;
 
+        PlayerPrefs.SetFloat("HP", HP);
         if (HP <= 0)
         {
             Destroy(gameObject);
         }
+    }
+
+    public void LoadProgress()
+    {
+        PlayerPrefs.GetFloat("HP", HP);
     }
 }
