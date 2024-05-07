@@ -4,59 +4,55 @@ using UnityEngine;
 
 public class EnemyBehaviour : MonoBehaviour
 {
-    public float speed = 3.5f; 
-    public float stoppingDistance = 2.0f; 
-    public float sightDistance = 5.0f; 
+    public float speed = 2f;
+    public float stoppingDistance = 5f;
     private Rigidbody2D rb; 
     private Transform player; 
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        player = GameObject.FindGameObjectWithTag("Player").transform;
+        player = GameObject.FindWithTag("Player").transform;
     }
 
     void Update()
     {
-       
-        Move();
+        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+
+        if (distanceToPlayer <= stoppingDistance)
+        {
+            Vector3 dirToPlayer = player.position - transform.position;
+            transform.Translate(dirToPlayer.normalized * speed * Time.deltaTime);
+        }
     }
-
-    
-
     void Move()
     {
-       
-        
-            if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
+        if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
+        {
+            if (transform.position.x < player.position.x)
             {
-                if (transform.position.x < player.position.x)
-                {
-                    rb.velocity = new Vector2(speed, rb.velocity.y);
-                }
-                else
-                {
-                    rb.velocity = new Vector2(-speed, rb.velocity.y);
-                }
+                rb.velocity = new Vector2(speed, rb.velocity.y);
             }
             else
             {
-                rb.velocity = new Vector2(0, rb.velocity.y);
+                rb.velocity = new Vector2(-speed, rb.velocity.y);
             }
-        
-    }
-
-    bool CanSeePlayer()
-    {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, player.position - transform.position, sightDistance);
-        if (hit.collider != null && hit.collider.CompareTag("Player"))
-        {
-            return true;
         }
-        return false;
+        else
+        {
+            rb.velocity = new Vector2(0, rb.velocity.y);
+        }
     }
 
-    
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        
+        if (col.gameObject.CompareTag("Obstacle"))
+        {
+            speed *= -1; 
+            Flip();
+        }
+    }
 
     void Flip()
     {
@@ -65,5 +61,3 @@ public class EnemyBehaviour : MonoBehaviour
         transform.localScale = scale;
     }
 }
-
-
