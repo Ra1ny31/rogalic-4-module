@@ -15,7 +15,7 @@ public class CoinScript : MonoBehaviour
     private void Update()
     {
         CoinText.text = Coin.ToString();
-        GetCoin();
+        PlayerPrefs.SetInt("Coin", Coin);
         
     }
 
