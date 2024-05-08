@@ -8,7 +8,10 @@ public class PerehodScenes : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        SceneManager.LoadScene("location 2");
+        var CurrentScene = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(CurrentScene + 1);
+
+
         GetComponent<PlayerHP>().LoadProgress();
         GetComponent<PotionScript>().LoadPotion();
         GetComponent<CoinScript>().GetCoin();

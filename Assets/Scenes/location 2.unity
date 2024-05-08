@@ -553,7 +553,7 @@ PrefabInstance:
     - target: {fileID: 3672984958450358352, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
       propertyPath: HealthBar
       value: 
-      objectReference: {fileID: 1501371066}
+      objectReference: {fileID: 1879947506}
     - target: {fileID: 3672984958450358352, guid: c78768acacdb87b45801eba550fa1e9a, type: 3}
       propertyPath: ImageCoin
       value: 
@@ -778,11 +778,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 6733507329704051092, guid: 12acbbd7f78eb594b879b24c8e9a1146, type: 3}
   m_PrefabInstance: {fileID: 1288752069}
   m_PrefabAsset: {fileID: 0}
---- !u!224 &1501371066 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 6733507329704051093, guid: 12acbbd7f78eb594b879b24c8e9a1146, type: 3}
-  m_PrefabInstance: {fileID: 1288752069}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1681856645 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1019261326, guid: 12acbbd7f78eb594b879b24c8e9a1146, type: 3}
@@ -817,6 +812,11 @@ GameObject:
 --- !u!1 &1879947503 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6733507329511638525, guid: 12acbbd7f78eb594b879b24c8e9a1146, type: 3}
+  m_PrefabInstance: {fileID: 1288752069}
+  m_PrefabAsset: {fileID: 0}
+--- !u!224 &1879947506 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 6733507329511638526, guid: 12acbbd7f78eb594b879b24c8e9a1146, type: 3}
   m_PrefabInstance: {fileID: 1288752069}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1904050598 stripped
