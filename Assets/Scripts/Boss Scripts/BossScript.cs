@@ -6,6 +6,8 @@ public class BossScript : MonoBehaviour
 {
     public int health = 100;
     public float speed = 3f;
+    public int damage = 20;
+
     
     private void Update()
     {
@@ -27,7 +29,7 @@ public class BossScript : MonoBehaviour
             PlayerHP playerHealth = collision.GetComponent<PlayerHP>();
             if (playerHealth != null)
             {
-                playerHealth.TakeDamage(20); 
+                playerHealth.TakeDamage(damage); 
             }
         }
     }
