@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5251b297217deb84b9c615310cbdccdc
+guid: 3cf71ed10f82738479ff578acaa2e9ad
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -82,7 +82,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -94,7 +94,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: castle_env_0
+      name: props1_0
       rect:
         serializedVersion: 2
-        x: 496
-        y: 224
+        x: 1088
+        y: 670
         width: 144
-        height: 64
+        height: 147
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,125 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 987ec539a20fee24d96b6119134d5aba
-      internalID: 1934424903
+      spriteID: dc980a030ee56f44b86ed2d8ce2db742
+      internalID: 2133898378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_1
+      name: props1_1
       rect:
         serializedVersion: 2
-        x: 496
-        y: 64
+        x: 910
+        y: 1120
+        width: 119
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359b5792a599ee145868ff05e9942839
+      internalID: -1442815486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props1_2
+      rect:
+        serializedVersion: 2
+        x: 1167
+        y: 1120
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2fdd22583823a84a979a4d6f6d05a8a
+      internalID: 1070755513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props1_3
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1056
+        width: 65
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a03b92860d6f748a543a54f511720d
+      internalID: 2018671464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props1_4
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1120
+        width: 112
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b91bb8f34ba7bb549b07bea73ac3f70c
+      internalID: 1884371581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props1_5
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1030
+        width: 110
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a20876616f221445bc1b48f86f6edb1
+      internalID: -2108814381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props1_6
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 831
         width: 144
-        height: 64
+        height: 145
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,145 +245,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c585e66094006449b47c563aeca8c34
-      internalID: 163047897
+      spriteID: 4ab3bd4d58ae33141b2c822cc035c4ad
+      internalID: -1648361296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_2
+      name: props1_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 112
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b9834b3bdc83104299cf3562060bb4c
-      internalID: 1615806401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_3
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 32
-        width: 32
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 892074ec7b7b62a40a4b50b0065ff3a0
-      internalID: -1626635161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_4
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 32
-        width: 112
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43f92ca5fe0eb644aaca11ae27d1e39e
-      internalID: 1502622547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_5
-      rect:
-        serializedVersion: 2
-        x: 207
-        y: 144
-        width: 81
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d6d684e192cb3594db178d16e426c092
-      internalID: 1140828343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_6
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 361
-        width: 48
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7b95900b0f078db468645310192c4f4f
-      internalID: -144668236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_7
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 192
-        width: 128
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6b0596d314107f41a640cbfae141a0d
-      internalID: -198657654
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_8
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 208
-        width: 16
+        x: 911
+        y: 754
+        width: 162
         height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -287,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf146a6842ebd274f9148ca76d8c76c2
-      internalID: -1037317315
+      spriteID: a91f7d84de3394d4597eb1c1196d013c
+      internalID: 649983615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_9
+      name: props1_8
       rect:
         serializedVersion: 2
-        x: 833
-        y: 288
-        width: 62
-        height: 16
+        x: 911
+        y: 832
+        width: 161
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c650f4cb6871a24baf598950c2df597
-      internalID: 281921353
+      spriteID: 6b33372c55d50344ea78e72596b2fcb2
+      internalID: 1720056228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_10
+      name: props1_9
       rect:
         serializedVersion: 2
-        x: 895
-        y: 271
-        width: 33
-        height: 33
+        x: 432
+        y: 832
+        width: 97
+        height: 105
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 200b54b208179a74aa6b1d41e42e8a95
-      internalID: -425786794
+      spriteID: a7efa9cf4ba48f249a2736d4568fbdbf
+      internalID: 618989022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_11
+      name: props1_10
       rect:
         serializedVersion: 2
-        x: 800
-        y: 271
-        width: 33
-        height: 33
+        x: 432
+        y: 707
+        width: 96
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -350,20 +329,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e7548c25b576aba4a81d41dea2e39ccd
-      internalID: 1216462685
+      spriteID: 4f107279d7bc88a468ba45426a690f90
+      internalID: -240817599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_12
+      name: props1_11
       rect:
         serializedVersion: 2
-        x: 912
-        y: 207
-        width: 16
-        height: 64
+        x: 611
+        y: 750
+        width: 173
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +350,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 562cfa19892b34b47b80a69a9d53bddd
-      internalID: -95908749
+      spriteID: b1f95e48f22ee63448cf41d28eddac8d
+      internalID: 465238220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_13
+      name: props1_12
       rect:
         serializedVersion: 2
-        x: 15
-        y: 176
-        width: 180
-        height: 128
+        x: 607
+        y: 833
+        width: 179
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -392,20 +371,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54401dc5bdf52eb4bbc246885417bb60
-      internalID: -193569456
+      spriteID: 1e9afdfd0ac7f7c4cba72844fc65448e
+      internalID: 697961118
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_14
+      name: props1_13
       rect:
         serializedVersion: 2
-        x: 319
-        y: 144
-        width: 65
-        height: 96
+        x: 797
+        y: 734
+        width: 100
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -413,20 +392,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72f370445cc540340ab0e3a8cd37f839
-      internalID: 186987666
+      spriteID: 51dfb6c5846efda4e89f7047aca64260
+      internalID: 1717832133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_15
+      name: props1_14
       rect:
         serializedVersion: 2
-        x: 688
-        y: 352
-        width: 111
-        height: 101
+        x: 796
+        y: 831
+        width: 102
+        height: 83
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -434,155 +413,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 934f5abf3ce05bf4db6682b68068518e
-      internalID: -1555769793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_16
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 352
-        width: 32
-        height: 93
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6f83950ab4b528c47800688136ba87d2
-      internalID: -1840764579
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_17
-      rect:
-        serializedVersion: 2
-        x: 511
-        y: 352
-        width: 113
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0368a2318c415794b8e85078d09e04b9
-      internalID: 359226
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_18
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 464
-        width: 64
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e04d8014ca312aa47b3148e5e23fdf1d
-      internalID: -884606193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_19
-      rect:
-        serializedVersion: 2
-        x: 720
-        y: 464
-        width: 80
-        height: 160
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 323707d78268e1f448c006cd4e7c10e4
-      internalID: 1303644703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_20
-      rect:
-        serializedVersion: 2
-        x: 525
-        y: 496
-        width: 182
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 944d8697d2246f3409d7922ff714e1a5
-      internalID: 550415607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_21
-      rect:
-        serializedVersion: 2
-        x: 624
-        y: 464
-        width: 80
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 89c807372cf096b40861dd50f2ee4e27
-      internalID: -1646148315
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_22
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 144
-        width: 80
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2be706381393df3499ed6bbb37ce1e07
-      internalID: -1837908771
+      spriteID: 63d5ac602b98fee48bfd1003b8172db2
+      internalID: 1802347103
       vertices: []
       indices: 
       edges: []
@@ -590,7 +422,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: deda04b9c5e108347a1e368187d259d0
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -598,29 +430,21 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      castle_env_0: 1934424903
-      castle_env_1: 163047897
-      castle_env_10: -425786794
-      castle_env_11: 1216462685
-      castle_env_12: -95908749
-      castle_env_13: -193569456
-      castle_env_14: 186987666
-      castle_env_15: -1555769793
-      castle_env_16: -1840764579
-      castle_env_17: 359226
-      castle_env_18: -884606193
-      castle_env_19: 1303644703
-      castle_env_2: 1615806401
-      castle_env_20: 550415607
-      castle_env_21: -1646148315
-      castle_env_22: -1837908771
-      castle_env_3: -1626635161
-      castle_env_4: 1502622547
-      castle_env_5: 1140828343
-      castle_env_6: -144668236
-      castle_env_7: -198657654
-      castle_env_8: -1037317315
-      castle_env_9: 281921353
+      props1_0: 2133898378
+      props1_1: -1442815486
+      props1_10: -240817599
+      props1_11: 465238220
+      props1_12: 697961118
+      props1_13: 1717832133
+      props1_14: 1802347103
+      props1_2: 1070755513
+      props1_3: 2018671464
+      props1_4: 1884371581
+      props1_5: -2108814381
+      props1_6: -1648361296
+      props1_7: 649983615
+      props1_8: 1720056228
+      props1_9: 618989022
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

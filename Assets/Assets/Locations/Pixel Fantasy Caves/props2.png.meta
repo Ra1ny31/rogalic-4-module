@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: c70abfca77f36714b92b411ffbced25c
+guid: 527d271e3ba3f9843ba89bf17ea61f2d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -82,7 +82,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -94,7 +94,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: env_trees_0
+      name: props2_0
       rect:
         serializedVersion: 2
-        x: 423
-        y: 48
-        width: 119
-        height: 151
+        x: 689
+        y: 849
+        width: 96
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c4f15cd8c573cdf4785e36137c510ae3
-      internalID: -1074437348
+      spriteID: bcb62168b9ced924fb75edb57762d36a
+      internalID: 2137976648
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: env_trees_1
+      name: props2_1
       rect:
         serializedVersion: 2
-        x: 342
-        y: 272
-        width: 171
-        height: 269
+        x: 69
+        y: 847
+        width: 284
+        height: 172
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1d2f5af352791564888ce323b02e6f22
-      internalID: 87183643
+      spriteID: 996b1dd568068fc4d8d726d19a92fdd9
+      internalID: 104022859
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: env_trees_2
+      name: props2_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 289
-        width: 256
-        height: 245
+        x: 390
+        y: 847
+        width: 220
+        height: 139
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77d3eb343b36d6f488091c8b0675bae1
-      internalID: 2119793520
+      spriteID: a850ed40de3f16246bc5e533b80eb380
+      internalID: 1480905242
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: env_trees_3
+      name: props2_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 62
-        width: 126
-        height: 177
+        x: 22
+        y: 16
+        width: 355
+        height: 144
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0eb2ddaad6d909741a8b4bc153dc1ca7
-      internalID: 1412227293
+      spriteID: 704db9d51164cdf41ac113c85f02c296
+      internalID: -1632249358
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: env_trees_4
+      name: props2_4
       rect:
         serializedVersion: 2
-        x: 426
+        x: 608
+        y: 321
+        width: 304
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30d93d48d255a844987a6031ae06910
+      internalID: 1109654687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props2_5
+      rect:
+        serializedVersion: 2
+        x: 433
         y: 15
-        width: 83
-        height: 17
+        width: 570
+        height: 267
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3edd4842638804b4e9d3a7bea1b8961a
-      internalID: 1976934813
+      spriteID: 8a32ec4eafa6e914c99411edc42e8ba9
+      internalID: -742528238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: env_trees_5
+      name: props2_6
       rect:
         serializedVersion: 2
-        x: 342
-        y: 236
-        width: 120
-        height: 27
+        x: 34
+        y: 256
+        width: 337
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d06022b0275f1c24183ab8276ae962f0
-      internalID: -338998624
+      spriteID: a10e07c718039684cbe0de54eecfee0e
+      internalID: 222054497
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: env_trees_6
+      name: props2_7
       rect:
         serializedVersion: 2
-        x: 0
-        y: 248
-        width: 148
-        height: 33
+        x: 854
+        y: 848
+        width: 135
+        height: 75
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,8 +266,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf4447cfb21062a4492139ef4779ff64
-      internalID: -1515565801
+      spriteID: fb6411ebf1d3e1549868604be42732d9
+      internalID: -2065785857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: props2_8
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 455
+        width: 115
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512046f7906ce6f4080059dd66bcc035
+      internalID: -670176578
       vertices: []
       indices: 
       edges: []
@@ -254,7 +296,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 94a7a5d315fbab94e8353cc440a0e1a2
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -262,13 +304,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      env_trees_0: -1074437348
-      env_trees_1: 87183643
-      env_trees_2: 2119793520
-      env_trees_3: 1412227293
-      env_trees_4: 1976934813
-      env_trees_5: -338998624
-      env_trees_6: -1515565801
+      props2_0: 2137976648
+      props2_1: 104022859
+      props2_2: 1480905242
+      props2_3: -1632249358
+      props2_4: 1109654687
+      props2_5: -742528238
+      props2_6: 222054497
+      props2_7: -2065785857
+      props2_8: -670176578
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

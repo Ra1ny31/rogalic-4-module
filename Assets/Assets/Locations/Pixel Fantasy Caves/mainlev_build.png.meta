@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 5251b297217deb84b9c615310cbdccdc
+guid: a2148cb95fda2a246b72a3834f9dc4a3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -70,7 +70,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -82,7 +82,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -94,7 +94,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -105,76 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: castle_env_0
+      name: mainlev_build_0
       rect:
         serializedVersion: 2
-        x: 496
-        y: 224
-        width: 144
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 987ec539a20fee24d96b6119134d5aba
-      internalID: 1934424903
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_1
-      rect:
-        serializedVersion: 2
-        x: 496
-        y: 64
-        width: 144
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c585e66094006449b47c563aeca8c34
-      internalID: 163047897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_2
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 112
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b9834b3bdc83104299cf3562060bb4c
-      internalID: 1615806401
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_3
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 32
+        x: 224
+        y: 672
         width: 32
-        height: 93
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 892074ec7b7b62a40a4b50b0065ff3a0
-      internalID: -1626635161
+      spriteID: 33e53b40ac555dd4f91d5b5f8ef3e07d
+      internalID: 782330374
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_4
+      name: mainlev_build_1
       rect:
         serializedVersion: 2
-        x: 176
-        y: 32
-        width: 112
-        height: 101
+        x: 432
+        y: 672
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43f92ca5fe0eb644aaca11ae27d1e39e
-      internalID: 1502622547
+      spriteID: f29bf4ea0b247b54b8f4f9c5d827dfea
+      internalID: 257239937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_5
+      name: mainlev_build_2
       rect:
         serializedVersion: 2
-        x: 207
-        y: 144
-        width: 81
-        height: 160
+        x: 224
+        y: 624
+        width: 32
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6d684e192cb3594db178d16e426c092
-      internalID: 1140828343
+      spriteID: 5b50ebea6fdc980418ae09c6540f9f8b
+      internalID: -594061673
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_6
+      name: mainlev_build_3
       rect:
         serializedVersion: 2
         x: 336
-        y: 361
-        width: 48
-        height: 7
+        y: 624
+        width: 33
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b95900b0f078db468645310192c4f4f
-      internalID: -144668236
+      spriteID: 48137acbd9ed5dc40ab3b58391f6848f
+      internalID: 1919549480
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_7
+      name: mainlev_build_4
       rect:
         serializedVersion: 2
-        x: 800
-        y: 192
-        width: 128
-        height: 15
+        x: 271
+        y: 624
+        width: 17
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e6b0596d314107f41a640cbfae141a0d
-      internalID: -198657654
+      spriteID: 2b6785e15c7c6104cb4cb657dc3aa74d
+      internalID: 365569534
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_8
+      name: mainlev_build_5
       rect:
         serializedVersion: 2
-        x: 800
-        y: 208
+        x: 304
+        y: 624
         width: 16
-        height: 63
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,167 +224,188 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf146a6842ebd274f9148ca76d8c76c2
-      internalID: -1037317315
+      spriteID: 938ac45f5982df84e96ccc20d68f277b
+      internalID: 1227515835
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_9
+      name: mainlev_build_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 624
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19aa3c912074c054ab7a11d3d1f34081
+      internalID: 1062094024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainlev_build_7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 816
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b10656ec1c68064782ad23ec7cd97ce
+      internalID: -795207158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainlev_build_8
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 816
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da1d904ab36144e498a88443d77ab065
+      internalID: 1239554970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainlev_build_9
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 892
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b767c4a107201b45b7f81a23404a79a
+      internalID: 277100081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainlev_build_10
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 894
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5629b616b8191c7429a71c6dfc97c693
+      internalID: 623859519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainlev_build_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 960
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09c221ab08f95f54397aa95ad94e92ce
+      internalID: -212384454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainlev_build_12
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 751
+        width: 55
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da88c2dcde6f76418f663510210204c
+      internalID: -1121055503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainlev_build_13
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 719
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d08e9289032eb499bf99b04eee6ef1
+      internalID: -249374238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainlev_build_14
       rect:
         serializedVersion: 2
         x: 833
-        y: 288
-        width: 62
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9c650f4cb6871a24baf598950c2df597
-      internalID: 281921353
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_10
-      rect:
-        serializedVersion: 2
-        x: 895
-        y: 271
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 200b54b208179a74aa6b1d41e42e8a95
-      internalID: -425786794
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_11
-      rect:
-        serializedVersion: 2
-        x: 800
-        y: 271
-        width: 33
-        height: 33
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7548c25b576aba4a81d41dea2e39ccd
-      internalID: 1216462685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_12
-      rect:
-        serializedVersion: 2
-        x: 912
-        y: 207
-        width: 16
-        height: 64
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 562cfa19892b34b47b80a69a9d53bddd
-      internalID: -95908749
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_13
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 176
-        width: 180
-        height: 128
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54401dc5bdf52eb4bbc246885417bb60
-      internalID: -193569456
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_14
-      rect:
-        serializedVersion: 2
-        x: 319
-        y: 144
-        width: 65
-        height: 96
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72f370445cc540340ab0e3a8cd37f839
-      internalID: 186987666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_15
-      rect:
-        serializedVersion: 2
-        x: 688
-        y: 352
-        width: 111
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 934f5abf3ce05bf4db6682b68068518e
-      internalID: -1555769793
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_16
-      rect:
-        serializedVersion: 2
-        x: 640
-        y: 352
+        y: 527
         width: 32
-        height: 93
+        height: 94
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -455,40 +413,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6f83950ab4b528c47800688136ba87d2
-      internalID: -1840764579
+      spriteID: fb1e115ac1042e74e8089c4e4e909bf6
+      internalID: 43313133
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_17
+      name: mainlev_build_15
       rect:
         serializedVersion: 2
-        x: 511
-        y: 352
-        width: 113
-        height: 101
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0368a2318c415794b8e85078d09e04b9
-      internalID: 359226
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: castle_env_18
-      rect:
-        serializedVersion: 2
-        x: 832
-        y: 464
-        width: 64
+        x: 880
+        y: 529
+        width: 32
         height: 96
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -497,20 +434,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e04d8014ca312aa47b3148e5e23fdf1d
-      internalID: -884606193
+      spriteID: a73f423ffb46d8a4b848bddecef8e031
+      internalID: -1828919978
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_19
+      name: mainlev_build_16
       rect:
         serializedVersion: 2
-        x: 720
-        y: 464
-        width: 80
-        height: 160
+        x: 752
+        y: 880
+        width: 48
+        height: 49
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,20 +455,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 323707d78268e1f448c006cd4e7c10e4
-      internalID: 1303644703
+      spriteID: ee6134ba4ab2a964baf4312e37473eae
+      internalID: 1258946782
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_20
+      name: mainlev_build_17
       rect:
         serializedVersion: 2
-        x: 525
-        y: 496
-        width: 182
-        height: 128
+        x: 814
+        y: 879
+        width: 52
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -539,20 +476,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 944d8697d2246f3409d7922ff714e1a5
-      internalID: 550415607
+      spriteID: a946f55f76d4d1746a8685a73647fee9
+      internalID: -702640440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_21
+      name: mainlev_build_18
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 879
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389f95f14bd25604fb0017e8cf256ddb
+      internalID: 365168980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainlev_build_19
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 992
+        width: 171
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 398b225b81003fd4aaf0df1dcdb7aee7
+      internalID: 955090985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainlev_build_20
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 738
+        width: 3
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b398456817a74ac40b73b76758a10f52
+      internalID: 1920897995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainlev_build_21
       rect:
         serializedVersion: 2
         x: 624
-        y: 464
-        width: 80
-        height: 16
+        y: 144
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -560,20 +560,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 89c807372cf096b40861dd50f2ee4e27
-      internalID: -1646148315
+      spriteID: f9844f617ce4ef548b008cc8ab128f5b
+      internalID: 580800886
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: castle_env_22
+      name: mainlev_build_22
       rect:
         serializedVersion: 2
-        x: 16
-        y: 144
-        width: 80
-        height: 16
+        x: 624
+        y: 192
+        width: 65
+        height: 65
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -581,8 +581,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2be706381393df3499ed6bbb37ce1e07
-      internalID: -1837908771
+      spriteID: b83b50d2c70e44248913eb7e6ab89371
+      internalID: -1503623643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainlev_build_23
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 624
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab8e8e2672b3dc489f1e36bb88918f5
+      internalID: 1378616400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainlev_build_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 751
+        width: 53
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60593970aac55a84d9f3467f30a9aa03
+      internalID: 960497654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainlev_build_25
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 768
+        width: 33
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4540ccd9f93c23445889848e562e0bcf
+      internalID: 91502135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainlev_build_26
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 768
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7d0684c603ab646961d6ac3b2192d8
+      internalID: -683331671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mainlev_build_27
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 976
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a50fd20d2379584994f5795c9bbe76a
+      internalID: -1498537647
       vertices: []
       indices: 
       edges: []
@@ -590,7 +695,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: deda04b9c5e108347a1e368187d259d0
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -598,29 +703,34 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      castle_env_0: 1934424903
-      castle_env_1: 163047897
-      castle_env_10: -425786794
-      castle_env_11: 1216462685
-      castle_env_12: -95908749
-      castle_env_13: -193569456
-      castle_env_14: 186987666
-      castle_env_15: -1555769793
-      castle_env_16: -1840764579
-      castle_env_17: 359226
-      castle_env_18: -884606193
-      castle_env_19: 1303644703
-      castle_env_2: 1615806401
-      castle_env_20: 550415607
-      castle_env_21: -1646148315
-      castle_env_22: -1837908771
-      castle_env_3: -1626635161
-      castle_env_4: 1502622547
-      castle_env_5: 1140828343
-      castle_env_6: -144668236
-      castle_env_7: -198657654
-      castle_env_8: -1037317315
-      castle_env_9: 281921353
+      mainlev_build_0: 782330374
+      mainlev_build_1: 257239937
+      mainlev_build_10: 623859519
+      mainlev_build_11: -212384454
+      mainlev_build_12: -1121055503
+      mainlev_build_13: -249374238
+      mainlev_build_14: 43313133
+      mainlev_build_15: -1828919978
+      mainlev_build_16: 1258946782
+      mainlev_build_17: -702640440
+      mainlev_build_18: 365168980
+      mainlev_build_19: 955090985
+      mainlev_build_2: -594061673
+      mainlev_build_20: 1920897995
+      mainlev_build_21: 580800886
+      mainlev_build_22: -1503623643
+      mainlev_build_23: 1378616400
+      mainlev_build_24: 960497654
+      mainlev_build_25: 91502135
+      mainlev_build_26: -683331671
+      mainlev_build_27: -1498537647
+      mainlev_build_3: 1919549480
+      mainlev_build_4: 365569534
+      mainlev_build_5: 1227515835
+      mainlev_build_6: 1062094024
+      mainlev_build_7: -795207158
+      mainlev_build_8: 1239554970
+      mainlev_build_9: 277100081
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
