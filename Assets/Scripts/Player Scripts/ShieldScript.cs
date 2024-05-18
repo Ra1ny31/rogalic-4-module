@@ -4,26 +4,42 @@ using UnityEngine;
 
 public class ShieldScript : MonoBehaviour
 {
-    public GameObject ShieldGameobject;
-    private void Update()
+    public BoxCollider2D shieldCollider;
+
+    void Start()
     {
-        ShieldGameobject.SetActive(false);
+        shieldCollider = GetComponent<BoxCollider2D>();
+        shieldCollider.enabled = false;
     }
 
-    private void OnCollisionEnter2D(Collision2D other)
+    void Update()
     {
-        if(other.gameObject.tag == "Enemy")
+        if (Input.GetMouseButtonDown(1))
         {
-            ShieldFunction();
+            ToggleShield();
         }
     }
 
-    public void ShieldFunction()
+    void ToggleShield()
     {
-        if (Input.GetMouseButton(1))
+        shieldCollider.enabled = !shieldCollider.enabled;
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (shieldCollider.enabled && other.CompareTag("Enemy"))
         {
-            ShieldGameobject.SetActive(true);
+            GetComponent<enemattack>().Damage -= 10;
+            Debug.Log("ўит заблокировал урон от врага");
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if (shieldCollider.enabled && other.CompareTag("Enemy"))
+        {
             GetComponent<enemattack>().Damage = 0;
+            Debug.Log("ўит заблокировал урон от врага");
         }
     }
 }

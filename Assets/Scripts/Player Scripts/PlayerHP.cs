@@ -53,6 +53,10 @@ public class PlayerHP : MonoBehaviour
 
     public void TakeDamage(int Damage)
     {
+        //if(GetComponent<ShieldScript>().CheckActive == true)
+        //{
+            //Damage = 0;
+        //}
         HP -= Damage;
 
         PlayerPrefs.SetFloat("HP", HP);
@@ -65,5 +69,11 @@ public class PlayerHP : MonoBehaviour
     public void LoadProgress()
     {
         PlayerPrefs.GetFloat("HP", HP);
+    }
+
+    public void SetHP()
+    {
+        PlayerPrefs.SetFloat("HP", HP);
+        HP = 100;
     }
 }

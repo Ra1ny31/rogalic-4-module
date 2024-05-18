@@ -10,6 +10,14 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("PlotScene");
     }
 
+    public void RestartGame()
+    {
+        SceneManager.LoadScene("PlotScene");
+        GetComponent<PlayerHP>().SetHP();
+        GetComponent<PotionScript>().SetPotion();
+        GetComponent<CoinScript>().Coin = 0;
+    }
+
     public void ExitGame()
     {
         Application.Quit();
