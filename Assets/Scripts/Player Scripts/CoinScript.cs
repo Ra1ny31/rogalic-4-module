@@ -15,7 +15,11 @@ public class CoinScript : MonoBehaviour
     private void Update()
     {
         CoinText.text = Coin.ToString();
+<<<<<<< Updated upstream
         PlayerPrefs.SetInt("Coin", Coin);
+=======
+        GetCoin();
+>>>>>>> Stashed changes
         
     }
 

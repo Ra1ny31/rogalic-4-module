@@ -1,9 +1,21 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: f5cff35980d68564382a653b7b401c2a
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
+=======
+guid: 59c40e9bf99ef3b478c974531f9e6d38
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+<<<<<<<< Updated upstream:Assets/Assets/Locations/Dark_Forest/Sprites/Sliced/bgrd_tree1.png.meta
+  serializedVersion: 7
+========
+  serializedVersion: 12
+>>>>>>>> Stashed changes:Assets/Assets/Porforever/Assets/Sprites/Block Tiles.png.meta
+>>>>>>> Stashed changes
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -23,8 +35,16 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+<<<<<<< Updated upstream
   vTOnly: 0
   ignoreMasterTextureLimit: 0
+=======
+<<<<<<<< Updated upstream:Assets/Assets/Locations/Dark_Forest/Sprites/Sliced/bgrd_tree1.png.meta
+========
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+>>>>>>>> Stashed changes:Assets/Assets/Porforever/Assets/Sprites/Block Tiles.png.meta
+>>>>>>> Stashed changes
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -34,8 +54,18 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 0
+<<<<<<< Updated upstream
     aniso: 1
     mipBias: 0
+=======
+<<<<<<<< Updated upstream:Assets/Assets/Locations/Dark_Forest/Sprites/Sliced/bgrd_tree1.png.meta
+    aniso: -1
+    mipBias: -100
+========
+    aniso: 1
+    mipBias: 0
+>>>>>>>> Stashed changes:Assets/Assets/Porforever/Assets/Sprites/Block Tiles.png.meta
+>>>>>>> Stashed changes
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -45,9 +75,15 @@ TextureImporter:
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
+<<<<<<< Updated upstream
   alignment: 1
   spritePivot: {x: 0, y: 1}
   spritePixelsToUnits: 16
+=======
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+>>>>>>> Stashed changes
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -67,10 +103,17 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
+<<<<<<< Updated upstream
     maxTextureSize: 32
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
+=======
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+>>>>>>> Stashed changes
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -79,10 +122,17 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 1
   - serializedVersion: 3
     buildTarget: Standalone
+<<<<<<< Updated upstream
     maxTextureSize: 32
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
+=======
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+>>>>>>> Stashed changes
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -101,6 +151,7 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
+<<<<<<< Updated upstream
   - serializedVersion: 3
     buildTarget: Android
     maxTextureSize: 32
@@ -125,14 +176,25 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
+=======
+>>>>>>> Stashed changes
   spriteSheet:
     serializedVersion: 2
     sprites: []
     outline: []
     physicsShape: []
     bones: []
+<<<<<<< Updated upstream
     spriteID: 89dbb0b173470ce438ff6458a5fa527d
     internalID: 0
+=======
+<<<<<<<< Updated upstream:Assets/Assets/Locations/Dark_Forest/Sprites/Sliced/bgrd_tree1.png.meta
+    spriteID: 06d53af0178c8d048bad4670f436fedd
+========
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+>>>>>>>> Stashed changes:Assets/Assets/Porforever/Assets/Sprites/Block Tiles.png.meta
+>>>>>>> Stashed changes
     vertices: []
     indices: 
     edges: []

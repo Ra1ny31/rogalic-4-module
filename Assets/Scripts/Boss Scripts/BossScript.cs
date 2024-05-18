@@ -6,8 +6,11 @@ public class BossScript : MonoBehaviour
 {
     public int health = 100;
     public float speed = 3f;
+<<<<<<< Updated upstream
     public int damage = 20;
 
+=======
+>>>>>>> Stashed changes
     
     private void Update()
     {
@@ -29,7 +32,11 @@ public class BossScript : MonoBehaviour
             PlayerHP playerHealth = collision.GetComponent<PlayerHP>();
             if (playerHealth != null)
             {
+<<<<<<< Updated upstream
                 playerHealth.TakeDamage(damage); 
+=======
+                playerHealth.TakeDamage(20); 
+>>>>>>> Stashed changes
             }
         }
     }

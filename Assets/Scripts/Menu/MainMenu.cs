@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+<<<<<<< Updated upstream
 public class MainMenu : MonoBehaviour
 {
     public void LoadLevel()
@@ -23,3 +24,12 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 }
+=======
+public class ButtonContinue : MonoBehaviour
+{
+   public void Continue()
+    {
+        SceneManager.LoadScene("location 1");
+    }
+}
+>>>>>>> Stashed changes

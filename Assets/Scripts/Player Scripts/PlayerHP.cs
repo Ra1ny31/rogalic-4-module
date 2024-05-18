@@ -53,10 +53,13 @@ public class PlayerHP : MonoBehaviour
 
     public void TakeDamage(int Damage)
     {
+<<<<<<< Updated upstream
         //if(GetComponent<ShieldScript>().CheckActive == true)
         //{
             //Damage = 0;
         //}
+=======
+>>>>>>> Stashed changes
         HP -= Damage;
 
         PlayerPrefs.SetFloat("HP", HP);
@@ -69,11 +72,14 @@ public class PlayerHP : MonoBehaviour
     public void LoadProgress()
     {
         PlayerPrefs.GetFloat("HP", HP);
+<<<<<<< Updated upstream
     }
 
     public void SetHP()
     {
         PlayerPrefs.SetFloat("HP", HP);
         HP = 100;
+=======
+>>>>>>> Stashed changes
     }
 }
