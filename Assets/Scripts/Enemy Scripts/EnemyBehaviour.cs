@@ -4,60 +4,20 @@ using UnityEngine;
 
 public class EnemyBehaviour : MonoBehaviour
 {
-    public float speed = 2f;
     public float stoppingDistance = 5f;
-    private Rigidbody2D rb; 
-    private Transform player; 
-
-    void Start()
-    {
-        rb = GetComponent<Rigidbody2D>();
-        player = GameObject.FindWithTag("Player").transform;
-    }
+    public GameObject player;
+    public GameObject vrag;
+    public float speed;
 
     void Update()
     {
-        float distanceToPlayer = Vector3.Distance(transform.position, player.position);
+        Vector2 player1 = player.transform.position;
+        Vector2 vrag1 = vrag.transform.position;
+        player1.y = vrag1.y;
 
-        if (distanceToPlayer <= stoppingDistance)
+        if (Vector2.Distance(player1, vrag1) > stoppingDistance)
         {
-            Vector3 dirToPlayer = player.position - transform.position;
-            transform.Translate(dirToPlayer.normalized * speed * Time.deltaTime);
+            vrag.transform.position = Vector2.MoveTowards(vrag1, player1, speed * Time.deltaTime);
         }
-    }
-    void Move()
-    {
-        if (Vector2.Distance(transform.position, player.position) > stoppingDistance)
-        {
-            if (transform.position.x < player.position.x)
-            {
-                rb.velocity = new Vector2(speed, rb.velocity.y);
-            }
-            else
-            {
-                rb.velocity = new Vector2(-speed, rb.velocity.y);
-            }
-        }
-        else
-        {
-            rb.velocity = new Vector2(0, rb.velocity.y);
-        }
-    }
-
-    void OnCollisionEnter2D(Collision2D col)
-    {
-        
-        if (col.gameObject.CompareTag("Obstacle"))
-        {
-            speed *= -1; 
-            Flip();
-        }
-    }
-
-    void Flip()
-    {
-        Vector3 scale = transform.localScale;
-        scale.x *= -1;
-        transform.localScale = scale;
     }
 }
