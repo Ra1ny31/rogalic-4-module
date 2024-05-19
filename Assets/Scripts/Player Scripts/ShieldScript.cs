@@ -4,65 +4,65 @@ using UnityEngine;
 
 public class ShieldScript : MonoBehaviour
 {
-<<<<<<< Updated upstream
-    public BoxCollider2D shieldCollider;
 
-    void Start()
-    {
-        shieldCollider = GetComponent<BoxCollider2D>();
-        shieldCollider.enabled = false;
-    }
+    //public BoxCollider2D shieldCollider;
 
-    void Update()
-    {
-        if (Input.GetMouseButtonDown(1))
-        {
-            ToggleShield();
-        }
-    }
+    //void Start()
+    //{
+    //    shieldCollider = GetComponent<BoxCollider2D>();
+    //    shieldCollider.enabled = false;
+    //}
 
-    void ToggleShield()
-    {
-        shieldCollider.enabled = !shieldCollider.enabled;
-    }
+    //void Update()
+    //{
+    //    if (Input.GetMouseButtonDown(1))
+    //    {
+    //        ToggleShield();
+    //    }
+    //}
 
-    void OnTriggerEnter2D(Collider2D other)
-    {
-        if (shieldCollider.enabled && other.CompareTag("Enemy"))
-        {
-            GetComponent<enemattack>().Damage -= 10;
-            Debug.Log("ўит заблокировал урон от врага");
-        }
-    }
+    //void ToggleShield()
+    //{
+    //    shieldCollider.enabled = !shieldCollider.enabled;
+    //}
 
-    void OnTriggerStay2D(Collider2D other)
-    {
-        if (shieldCollider.enabled && other.CompareTag("Enemy"))
-        {
-            GetComponent<enemattack>().Damage = 0;
-            Debug.Log("ўит заблокировал урон от врага");
-=======
-    public GameObject ShieldGameobject;
-    private void Update()
-    {
-        ShieldGameobject.SetActive(false);
-    }
+    //void OnTriggerEnter2D(Collider2D other)
+    //{
+    //    if (shieldCollider.enabled && other.CompareTag("Enemy"))
+    //    {
+    //        GetComponent<enemattack>().Damage -= 10;
+    //        Debug.Log("ўит заблокировал урон от врага");
+    //    }
+    //}
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
-        if(other.gameObject.tag == "Enemy")
-        {
-            ShieldFunction();
-        }
-    }
+    //void OnTriggerStay2D(Collider2D other)
+    //{
+    //    if (shieldCollider.enabled && other.CompareTag("Enemy"))
+    //    {
+    //        GetComponent<enemattack>().Damage = 0;
+    //        Debug.Log("ўит заблокировал урон от врага");
 
-    public void ShieldFunction()
-    {
-        if (Input.GetMouseButton(1))
-        {
-            ShieldGameobject.SetActive(true);
-            GetComponent<enemattack>().Damage = 0;
->>>>>>> Stashed changes
-        }
-    }
+    
+    //private void Update()
+    //{
+    //    ShieldGameobject.SetActive(false);
+    //}
+
+    //private void OnCollisionEnter2D(Collision2D other)
+    //{
+    //    if(other.gameObject.tag == "Enemy")
+    //    {
+    //        ShieldFunction();
+    //    }
+    //}
+
+    //public void ShieldFunction()
+    //{
+    //    if (Input.GetMouseButton(1))
+    //    {
+    //        ShieldGameobject.SetActive(true);
+    //        GetComponent<enemattack>().Damage = 0;
+
+    //    }
+    //}
 }
