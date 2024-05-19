@@ -4465,6 +4465,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MaxHealth: 300
   CurrentHealth: 0
+  animator: {fileID: 0}
 --- !u!61 &188932823
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33944,6 +33945,10 @@ PrefabInstance:
     - target: {fileID: 3497699572934175040, guid: 16fb283209f2c054985c8a7111ecf8f9, type: 3}
       propertyPath: m_Name
       value: EnemyMelee
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497699572934175040, guid: 16fb283209f2c054985c8a7111ecf8f9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3497699572934175044, guid: 16fb283209f2c054985c8a7111ecf8f9, type: 3}
       propertyPath: m_RootOrder
