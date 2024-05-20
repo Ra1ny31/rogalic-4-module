@@ -15,7 +15,7 @@ public class EnemyBehaviour : MonoBehaviour
         Vector2 vrag1 = vrag.transform.position;
         player1.y = vrag1.y;
 
-        if (Vector2.Distance(player1, vrag1) > stoppingDistance)
+        if (Vector2.Distance(player1, vrag1) < stoppingDistance)
         {
             vrag.transform.position = Vector2.MoveTowards(vrag1, player1, speed * Time.deltaTime);
         }

@@ -20,7 +20,8 @@ public class DeathScreen : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene("location 1");
+        var CurrentScene = SceneManager.GetActiveScene().buildIndex;
+        SceneManager.LoadScene(CurrentScene);
     }
 
     public void BackMenu()
