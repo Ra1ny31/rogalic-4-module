@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class enemattack : MonoBehaviour
 {
-    public float Damage = 10f;
+    public float Damage = 2f;
     public float CoolDown = 0;
 
     public Animator animator;
@@ -53,7 +53,7 @@ public class enemattack : MonoBehaviour
 
             if (other.gameObject.GetComponent<PlayerHP>() != null && CoolDown >= 1)
             {
-                Damage += 10;
+                Damage += 2;
                 animator.SetTrigger("Attack");
 
 

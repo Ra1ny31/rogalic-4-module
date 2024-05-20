@@ -15,16 +15,16 @@ public class PlayerHP : MonoBehaviour
     public GameObject Player;
     public GameObject ImageCoin;
     public GameObject CoinText;
+    
     private void Awake()
-    {
-        
+    {       
         DeathScreen.SetActive(false);
     }
     private void Start()
     {
         HP = PlayerPrefs.GetFloat("HP", HP);
 
-        if(HP <= 0)
+        if (HP <= 0)
         {
             HP += 100;
             GetComponent<PotionScript>().SetPotion();
@@ -37,7 +37,7 @@ public class PlayerHP : MonoBehaviour
         PlayerPrefs.SetFloat("HP", HP);
         if (HP <= 0)
         {
-            Destroy(gameObject);
+            
             DeathScreen.SetActive(true);
             Health.SetActive(false);
             PotionImage.SetActive(false);
@@ -64,7 +64,7 @@ public class PlayerHP : MonoBehaviour
         PlayerPrefs.SetFloat("HP", HP);
         if (HP <= 0)
         {
-            Destroy(gameObject);
+            
         }
     }
 
