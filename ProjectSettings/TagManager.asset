@@ -8,6 +8,7 @@ TagManager:
   - Potion
   - Shield
   - Shop
+  - Boss
   layers:
   - Default
   - TransparentFX
