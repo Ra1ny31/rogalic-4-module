@@ -9,6 +9,7 @@ public class EnemyHP : MonoBehaviour
     public Animator animator;
     private Rigidbody2D rb;
     private BoxCollider2D Collider;
+    private int DeathTimer = 0;
 
     private void Start()
     {
@@ -17,7 +18,15 @@ public class EnemyHP : MonoBehaviour
         Collider = GetComponent<BoxCollider2D>();
     }
 
-    
+    private void Update()
+    {
+        if(DeathTimer == 1)
+        {
+            Destroy(gameObject);
+        }
+    }
+
+
 
     public void TakeDamage(int Damage)
     {
@@ -25,6 +34,8 @@ public class EnemyHP : MonoBehaviour
         
         if(CurrentHealth <= 0)
         {
+            
+            DeathTimer = 1;
             Collider.enabled = false;
             rb.bodyType = RigidbodyType2D.Static;
             GetComponent<enemattack>().enabled = false;

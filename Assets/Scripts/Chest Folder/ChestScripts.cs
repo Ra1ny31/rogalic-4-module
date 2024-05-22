@@ -21,7 +21,7 @@ public class ChestScripts : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.T))
         {
-            Potion.Potion += Random.Range(3, 5);
+            Potion.Potion += Random.Range(5, 9);
             Coin.Coin += Random.Range(5, 15);
             Destroy(gameObject);
         }
