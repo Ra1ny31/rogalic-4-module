@@ -6,13 +6,15 @@ using TMPro;
 public class PotionScript : MonoBehaviour
 {
     [SerializeField] private float MaxPotion = 3;
-    public int Potion;
+    public int Potion = 10;
     private int AddPotion = 1;
     private PlayerHP HpMain;
     [SerializeField] private TextMeshProUGUI TextPotion;
 
     private void Start()
     {
+        //Potion = 10;
+        PlayerPrefs.SetInt("Potion", Potion = 10);
         HpMain = GetComponent<PlayerHP>();
         Potion = PlayerPrefs.GetInt("Potion", Potion);
         if(HpMain.HP <= 0)

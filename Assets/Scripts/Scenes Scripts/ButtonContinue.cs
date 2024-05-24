@@ -8,5 +8,6 @@ public class ButtonContinue : MonoBehaviour
    public void Continue()
     {
         SceneManager.LoadScene("location 1");
+        GetComponent<PotionScript>().Potion = 10;
     }
 }

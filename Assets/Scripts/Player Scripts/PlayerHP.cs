@@ -19,6 +19,7 @@ public class PlayerHP : MonoBehaviour
     private void Awake()
     {       
         DeathScreen.SetActive(false);
+        GetComponent<PotionScript>().Potion = 10;
     }
     private void Start()
     {
